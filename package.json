@@ -1,0 +1,25 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Devouring a burger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danny1215/burger.git"
+  },
+  "author": "Daniel Mestawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danny1215/burger/issues"
+  },
+  "homepage": "https://github.com/danny1215/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}
