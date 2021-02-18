@@ -25,6 +25,11 @@ When the user decides to devoure it he/she clicks the button that he/she wants t
 
 ## LINK TO THE HEROKU
 
+- https://boiling-badlands-27126.herokuapp.com/
+
+## LINK TO MY UPDATED PORTFOLIO
+
+- https://github.com/danny1215/Updated-Portfolio-danny
 
 
 ## SCREENSHOTS
