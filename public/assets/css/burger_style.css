@@ -1,8 +1,9 @@
-  
+  /* h2 style */
 h2 {
     text-align: center;
     font-family: Verdana,sans-serif;
 }
+/* flexbox-container style */
 .flexbox-container {
     display: flex;
     justify-content: center;
@@ -14,7 +15,7 @@ h2 {
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
 }
-
+/* button style */
 button {
     padding: 20px;
     margin: 20px;
@@ -26,12 +27,19 @@ button {
     border-color: blue;
     
 }
+/* button hover style */
+button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
 
+/* body styel */
 body {
    background-image: url(../img/image\ 6.jpg);
    font-family: Verdana,sans-serif;
 }
 
+/* form style */
 form {
     text-align: center;
     border-color: blue;
@@ -39,7 +47,7 @@ form {
     box-shadow: brown;
 }
 
-
+/* li style */
 li{
     font-size: 20px;
     color: blue;

@@ -13,10 +13,11 @@ When the user decides to devoure it he/she clicks the button that he/she wants t
 
 - mysql
 - CSS
+- HTML-5
 - express
 - express-handlebars
-- JAVASCRIPT
-- node
+- Javascript
+- node.js
 - heroku
 
 ## LINK TO THE REPOSITORY

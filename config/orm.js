@@ -30,7 +30,9 @@ const orm ={
             console.log(res);
             cb(res);
     });
-    }
+    },
+ 
+    
 }
 
 module.exports = orm;
