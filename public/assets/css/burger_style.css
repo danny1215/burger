@@ -1,0 +1,52 @@
+  
+h2 {
+    text-align: center;
+    font-family: Verdana,sans-serif;
+}
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    display: -webkit-flex;
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+button {
+    padding: 20px;
+    margin: 20px;
+    color: brown;
+    font-family: Verdana,sans-serif;
+}
+
+body {
+   background-image: url(../img/image\ 6.jpg);
+   font-family: Verdana,sans-serif;
+}
+
+form {
+    text-align: center;
+}
+
+li{
+    font-size: 20px;
+    color: blue;
+}
+
+/* footer style */
+.footer {
+    padding-bottom: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    color: red;
+    
+ }

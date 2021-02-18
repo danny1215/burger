@@ -20,12 +20,12 @@ router.post("/api/burger", (req, res) => {
     });
 });
 
-router.put("/api/burger/:id", (req, res) => {
+router.put('/api/burger/:id', (req, res) => {
     //creates id = id
-    const burgerId = req.params.id;
+    var burgerId = req.params.id;
   
     burger.updateOne(burgerId, result => {
-      if (result.changedRows == 0) {
+      if (result.changedRows === 0) {
         // If no rows were changed, then the ID must not exist, so 404
         return res.status(404).end();
       } else {
